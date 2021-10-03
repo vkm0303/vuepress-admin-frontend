@@ -1,5 +1,7 @@
 # vuepress 博客管理前端
 
+后台仓库：[vuepress-admin-backend](https://github.com/vkm0303/vuepress-admin-backend.git)
+
 ## 介绍
 
 ### 背景
@@ -48,8 +50,6 @@ npm i
 ### 配置
 
 前端需要配置的东西不多，主要改一下 api 的地址
-
-后台仓库：[vuepress-admin-backend](https://github.com/vkm0303/vuepress-admin-backend.git)
 
 ```javascript
 //src/utils/request.js
