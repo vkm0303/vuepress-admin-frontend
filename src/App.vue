@@ -7,14 +7,14 @@
  * @FilePath: \hexo后台管理系统\Frontend\src\App.vue
 -->
 <template>
-    <router-view />
+	<router-view />
 </template>
 
 <script>
-export default {};
+	export default {};
 </script>
 
 <style>
-@import "./assets/css/main.css";
-@import "./assets/css/color-dark.css";
+	@import "./assets/css/main.css";
+	@import "./assets/css/color-dark.css";
 </style>

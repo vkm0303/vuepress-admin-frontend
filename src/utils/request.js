@@ -6,11 +6,11 @@
  * @LastEditTime: 2021-04-04 14:20:19
  * @FilePath: \hexo后台管理系统\Frontend\src\utils\request.js
  */
-import axios from 'axios';
+import axios from "axios";
 
 const service = axios.create({
-    // process.env.NODE_ENV === 'development' 来判断是否开发环境
-    baseURL: 'http://localhost:3100/api',
+    // process.env.NODE_ENV === "development" 来判断是否开发环境
+    baseURL: "http://localhost:3100/api",
     timeout: 5000
 });
 

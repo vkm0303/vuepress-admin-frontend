@@ -96,7 +96,6 @@
 						title: this.title,
 						content: this.content,
 					});
-					console.log(res);
 					if (res.ret) {
 						ElMessage.success({
 							message: "保存成功",
@@ -120,7 +119,7 @@
 		},
 	};
 </script>
-<style lang="scss">
+<style lang='scss'>
 	.markdown-container {
 		.editor-btn {
 			margin-top: 20px;
